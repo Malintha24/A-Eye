@@ -33,6 +33,7 @@ public class ViewFinder : MonoBehaviour
             transform.position = hits[0].pose.position;
             transform.rotation = hits[0].pose.rotation;
         }
+        
         // enable the visual if it's disabled
         if (!visual.activeInHierarchy)
             visual.SetActive(true);
